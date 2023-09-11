@@ -1,0 +1,12 @@
+{
+  "_type": "few_shot",
+  "input_variables": ["first_number", "second_number"],
+  "prefix": "Add the following numbers together.",
+  "example_prompt": {
+    "_type": "prompt",
+    "input_variables": ["input", "output"],
+    "template": "Input: {input}\nOutput: {output}"
+  },
+  "examples": "prompts/sample/examples.json",
+  "suffix": "Input: {first_number} + {second_number}\nOutput:"
+}
